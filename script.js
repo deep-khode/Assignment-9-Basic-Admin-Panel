@@ -4,7 +4,7 @@ let table = document.getElementById('table-data');
 $(function(){
     let result = [];
     $.get(url, function(res){
-        // console.log('Response', res);
+        // console.log('Response', res); 
         if(res){
             result = res;
             let getTabelRow = '';
